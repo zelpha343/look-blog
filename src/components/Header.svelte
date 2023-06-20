@@ -18,7 +18,7 @@ on:click={() => handleClick(header)}>{header}</button
 > -->
 
 <div
-	class="flex fixed w-full h-min items-center bg-gray-950 opacity-90 border-b-4 border-purple-500 shadow-glow-purple appear-animation"
+	class="flex fixed w-full h-min items-center bg-gray-950 opacity-90 border-b-4 border-purple-500 shadow-glow-purple appear-animation z-50"
 >
 	<div>
 		<img src="look_logo.svg" alt="logo" height="100" width="100" />
