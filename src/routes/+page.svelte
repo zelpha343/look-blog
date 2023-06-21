@@ -14,5 +14,9 @@
 	{activeHeader}
 	on:headerSelection={handleHeaderSelection}
 />
-<div class="h-screen w-screen bg-stone-950 flex items-center justify-center" />
+<div class="h-screen w-screen bg-stone-950 flex items-center justify-center">
+	{#if activeHeader == 'Home'}
+		<h1 class="text-2xl text-white">Home</h1>
+	{/if}
+</div>
 <Footer />

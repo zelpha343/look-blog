@@ -2,22 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes appear {
-    from {
-        opacity: 0;
-    } to {
-        opacity: 1;
-    }
-}
-
-.appear-animation {
-    animation: appear 4s;
-}
-
-.delay-2000 {
-    animation-delay: 2s;
-}
-
-.cb {
+.guide {
     border: 1px solid white;
 }
+
