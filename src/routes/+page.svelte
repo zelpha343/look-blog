@@ -4,7 +4,7 @@
 
 	let activeHeader = 'Home';
 
-	function handleHeaderSelection(event) {
+	function handleHeaderSelection(event: any) {
 		activeHeader = event.detail.header;
 	}
 </script>

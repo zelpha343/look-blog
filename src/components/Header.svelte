@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import Device from 'svelte';
 
 	let dispatch = createEventDispatcher();
 
