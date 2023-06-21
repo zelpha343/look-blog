@@ -6,6 +6,10 @@
     border: 1px solid white;
 }
 
+.guide-y {
+    border: 1px solid yellow;
+}
+
 @keyframes appear {
     from {
         opacity: 0;

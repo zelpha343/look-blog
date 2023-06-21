@@ -13,8 +13,9 @@
 	};
 </script>
 
-<div class="fixed w-full h-min flex justify-around items-center">
-	<div class="w-36 h-20 py-2 px-3 flex">
+<div class="fixed w-full h-min flex justify-around items-center z-10">
+	<div class="w-36 h-20 py-2 px-3 flex relative">
+		<div class="absolute h-20 w-20 hover:bg-pink-500 bg-purple-600 blur-3xl left-1" />
 		<img src="look_logo.svg" alt="LOGO" />
 	</div>
 	<div class="flex space-x-10">
@@ -30,12 +31,5 @@
 				>
 			{/if}
 		{/each}
-	</div>
-	<div class="flex items-center">
-		<input
-			type="text"
-			class="bg-stone-900 rounded-md p-3 focus:outline-none text-white text-xl"
-			placeholder="Search"
-		/>
 	</div>
 </div>
