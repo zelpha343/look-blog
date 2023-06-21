@@ -17,3 +17,7 @@
 .delay-2000 {
     animation-delay: 2s;
 }
+
+.cb {
+    border: 1px solid white;
+}
