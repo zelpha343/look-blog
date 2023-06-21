@@ -10,6 +10,7 @@
 	const handleClick = (header: string) => {
 		dispatch('headerSelection', { header });
 		activeHeader = header;
+		console.log(activeHeader);
 	};
 </script>
 
